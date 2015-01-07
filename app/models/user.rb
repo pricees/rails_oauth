@@ -25,7 +25,7 @@ class User < ActiveRecord::Base
 
   private 
 
-  def self.create_user_from(access_token)
+  def self.create_user_from_access_token(access_token)
     data = access_token.info
     User.create(name: data["name"],
                 provider: access_token.provider,

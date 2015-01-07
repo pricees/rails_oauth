@@ -1,11 +1,15 @@
 
-Rails Bare 
+# Rails Bare #
+
+## Description ##
+
+An empty rails 4.2 app with authentication
 
 =====
-Gems:
+Gems used:
 - Rails 4.2
 - Devise w/ Google Oauth Support
-- Rpsec
+- Rspec
 
 
 ```base
